@@ -1,0 +1,37 @@
+# Runtime artifacts
+artifacts/
+results/
+logs/
+reflector/
+global_state.json
+
+# Secrets and local configuration
+.env
+.env.*
+!.env.example
+config.local.*
+*.key
+*.pem
+
+# Model checkpoints and large binaries
+*.pth
+*.pt
+*.onnx
+*.bin
+*.safetensors
+*.mp4
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+.ruff_cache/
+.mypy_cache/
+.venv/
+venv/
+
+# OS/editor
+.DS_Store
+.idea/
+.vscode/

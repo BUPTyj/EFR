@@ -1,0 +1,28 @@
+[project]
+name = "mobileagent-v3-optimized"
+version = "0.1.0"
+description = "An optimized MobileAgent V3-style GUI agent for OSWorld-like desktop control tasks."
+readme = "README.md"
+requires-python = ">=3.10"
+license = { text = "Apache-2.0" }
+dependencies = [
+  "openai",
+  "dashscope",
+  "numpy",
+  "Pillow",
+  "opencv-python-headless",
+  "matplotlib",
+  "requests",
+  "requests-toolbelt",
+  "gymnasium",
+  "docker",
+  "lxml",
+  "cssselect",
+  "xmltodict",
+  "python-dotenv",
+  "tqdm",
+  "wrapt-timeout-decorator",
+]
+
+[tool.setuptools.packages.find]
+include = ["mobileagent_v3_optimized*", "desktop_env*"]

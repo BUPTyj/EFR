@@ -1,0 +1,16 @@
+openai
+dashscope
+numpy
+Pillow
+opencv-python-headless
+matplotlib
+requests
+requests-toolbelt
+gymnasium
+docker
+lxml
+cssselect
+xmltodict
+python-dotenv
+tqdm
+wrapt-timeout-decorator
